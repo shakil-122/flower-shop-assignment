@@ -8,6 +8,7 @@
 .image{
     width: 635px;
     height: 800px;
+    padding-left: 50px;
    
 
     
@@ -34,13 +35,43 @@ p{
     background: #E55473;
     color: aliceblue;
     border-style: none;
+}
+.text-description{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+   
+}
 
+.flower{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    
+    
+}
+.flower-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 310px;
+    height: 428px;
+    
+    
 
 }
-h4{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-weight: 800;
+.flower-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 310px;
+    height: 428px;
+}
+.flower-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 310px;
+    height: 428px;
 }
