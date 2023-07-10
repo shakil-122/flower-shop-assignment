@@ -41,6 +41,7 @@ p{
     text-align: center;
     font-family: Lato;
     font-size: 40px;
+    
    
 }
 
@@ -74,4 +75,17 @@ p{
     background: rgba(71, 125, 17, 0.15);
     width: 310px;
     height: 428px;
+}
+.heading{
+    text-justify: auto;
+    text-align: ;
+}
+.section-3{
+    background-color: rgba(233, 150, 122, 0.183);
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    
 }
