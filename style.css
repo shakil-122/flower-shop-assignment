@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
+    padding: 60px 60px;
+    margin: auto;
+}
+.image{
+    width: 635px;
+    height: 800px;
+   
+
+    
+
+}
+h3{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+}
+p{
+    color: rgba(39, 39, 39, 0.60);
+    /* font-family: Lato; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.btn-primary{
+   
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: aliceblue;
+    border-style: none;
+
+
+}
+h4{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
