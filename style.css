@@ -148,5 +148,38 @@ p{
 .flower-5{
     display: flex;
     justify-content: space-around;
+    width: auto;
+    padding: 100px;
+    gap: 5px;
+}
+#design{
+    font-size: 30px;
+    font-weight: 200px;
+
+
+}
+.description-4{
+    text-align: center;
+    background-image: url('image/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 30px;
+    border-radius: 2px;
+    
+}
+input{
+    border-radius: 4px;
+    /* line-height: 30px; */
+    padding: 10px 28px;
+    width: 600px;
+    border-style: none;
+    background-color: azure;
+}
+.btn-primary-2{
+    padding: 10px 28px;
+    border-radius: 8px;
+    background: #E55473;
+    color: aliceblue;
+    border-style: none;
 }
 
