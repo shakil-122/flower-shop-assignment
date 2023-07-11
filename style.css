@@ -2,16 +2,18 @@
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     justify-content: space-around;
-    padding: 60px 60px;
-    margin: auto;
+    padding: 60px 60px 0;
+    margin: auto auto 0;
 }
-.image{
-    width: 635px;
-    height: 800px;
-    padding-left: 50px;
-   
+.parent{
 
-    
+}
+.container > img{
+    width: 560px;
+    height: 641px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 
 }
 h3{
@@ -23,9 +25,7 @@ h3{
 }
 p{
     color: rgba(39, 39, 39, 0.60);
-    /* font-family: Lato; */
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
 }
 .btn-primary{
@@ -40,52 +40,105 @@ p{
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 50px;
+    flex-direction: column;
+    width: 701px;
+    margin: auto;
     
    
 }
 
 .flower{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-decoration: underline;
-    margin-right: 50px;
-    margin-left: 50px;
-    
-    
+    margin: 0px 240px;
+    padding: 15px 100px;
+    gap: 8px;
     
 }
 .flower-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.flower-img-1{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 310px;
-    height: 428px;
-    
-    
-
+    width: 370px;
+    height: 370px;
+    padding: 117px 51px 47px;
 }
 .flower-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.flower-img-2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     width: 310px;
     height: 428px;
+    padding: 110px 77px 0px;
+
 }
 .flower-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.flower-img-3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 310px;
-    height: 428px;
-}
-.heading{
-    text-justify: auto;
-    text-align: ;
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0px;
+    /* border: 2px solid red; */
 }
 .section-3{
     background-color: rgba(233, 150, 122, 0.183);
     display: flex;
-    margin: auto;
+    padding: 78px 167px;
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
+    justify-content: space-around;
+    margin: auto;
+    height: 200px;
+
+    
     
 }
+.description-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    width: 600px;
+    /* margin: auto; */
+    background-size: auto;
+    padding: 70px;
+
+    
+}
+.flower-4{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    
+}
+.btn-primary-1{
+    padding: 16px 38px;
+    border-radius: 8px;
+    background: #E55473;
+    color: aliceblue;
+    border-style: none;
+}
+.description-3{
+    text-align: center;
+    margin: auto;
+}
+.flower-5{
+    display: flex;
+}
+
