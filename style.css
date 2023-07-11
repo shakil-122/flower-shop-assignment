@@ -136,9 +136,17 @@ p{
 }
 .description-3{
     text-align: center;
+    width: 600px;
     margin: auto;
+    padding: 0px 100px;
+    align-items: center;
+}
+.media{
+    font-size: 30px;
+    font-weight: 200px;
 }
 .flower-5{
     display: flex;
+    justify-content: space-around;
 }
 
